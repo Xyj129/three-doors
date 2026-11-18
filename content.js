@@ -1,4 +1,4 @@
-// ============ 全部文案与谜题都在这里，改这里就行 ============
+﻿// ============ 全部文案与谜题都在这里，改这里就行 ============
 const STORY = {
   title: "三扇门",
   subtitle: "一份只写给你的东西",
@@ -22,12 +22,12 @@ const STORY = {
           text: "相框里是空的。翻过来，背后有一行铅笔字：等元旦见面，我们用拍立得记录下我们的第一张合照。" },
         { id: "phone", label: "手机", x: 78, y: 52,
           chats: [
-            "assets/chats/chat-1.jpg",
-            "assets/chats/chat-2.jpg",
-            "assets/chats/chat-3.jpg",
-            "assets/chats/chat-4.jpg",
-            "assets/chats/chat-5.jpg",
-            "assets/chats/chat-6.jpg"
+            "chat-1.jpg",
+            "chat-2.jpg",
+            "chat-3.jpg",
+            "chat-4.jpg",
+            "chat-5.jpg",
+            "chat-6.jpg"
           ],
           text: "每天打开手机都可以看见我俩童年大头照，超级幸福，你说未来我俩的小孩子会不会也那么可爱！一个像你，一个像我，挺好，就是你要好好爱我，不然我不生小孩哈哈哈哈~" }
       ],
@@ -40,7 +40,7 @@ const STORY = {
         wrong: "锁没有动。再想想那个日子。"
       },
       after: {
-        photo: "assets/photos/photo-1.jpg",
+        photo: "photo-1.jpg",
         caption: "从这一天开始",
         text: "门开了。后面不是走廊，是一段很轻但是很值得用一生去铭记的记忆：纠结了很久，这份爱意要不要说出口，但是最后还是不想再等待了，爱情靠自己把握，择日不如撞日，今天就给你一个名分！也给我一个名分！",
         ask: "我特别好奇一点，如果我比这次更提前说，你会怎么做？",
@@ -73,7 +73,7 @@ const STORY = {
         wrong: "不对。再想想，平时第一句喊出来的是什么。"
       },
       after: {
-        photo: "assets/photos/photo-2.jpg",
+        photo: "photo-2.jpg",
         caption: "一个像你，一个像我",
         text: "OK呀，第二扇门也打开了！",
         ask: "如果让你选一个我身上最吸引你的特质，你会选择什么？",
@@ -106,7 +106,7 @@ const STORY = {
         wrong: "哈哈哈哈哈猜错了"
       },
       after: {
-        photo: "assets/photos/photo-3.jpg",
+        photo: "photo-3.jpg",
         caption: "以后的我们",
         text: "第三扇门后没有房间，只有一扇窗。窗外是你说过的那个未来。",
         ask: "那你愿意和我一起走过去吗？",
@@ -136,9 +136,9 @@ const STORY = {
     gift: "打开",
     daysLabel: "这是我们在一起的第",
     gallery: [
-      "assets/photos/final-1.jpg",
-      "assets/photos/final-2.jpg",
-      "assets/photos/final-3.jpg"
+      "final-1.jpg",
+      "final-2.jpg",
+      "final-3.jpg"
     ],
     letter: [
      "看东西只有用心才能看得清楚，重要的东西用眼睛是看不见的。我用心看见你，也偏爱你。也许世界上有五千朵和你一模一样的花，但只有你，是我独一无二的玫瑰。如果你爱上了某个星球的一朵花，那么只要在夜晚仰望星空，就会觉得漫天繁星都开着花。于我，你就是那颗星球上的花."
@@ -150,3 +150,4 @@ const STORY = {
 
   startDate: "2026-09-27T00:00:00+08:00"
 };
+
